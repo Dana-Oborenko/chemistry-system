@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    height: 100vh;
+    margin: 0px;
+}
+
+.col-lg-5 {
+    padding: 2.5rem;
+    text-align: center;
+    background-color: rgb(23, 17, 109);
+    color: white;
+}
+
+.col-lg-5 hr {
+    width: 250px;
+}
+
+.col-lg-7, .col-lg-12 {
+    position: relative;
+    padding: 2.5rem 5rem;
+}
+
+.chemistry_image {
+    width: 25rem;
+}
+
+.header {
+   color: rgb(23, 17, 109);
+}
+
+.subheader {
+    text-decoration: underline;     
+    text-decoration-color: rgb(23, 17, 109);  
+}
+
+.info {
+    width: 70%;
+    line-height: 1.9rem;
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(23, 17, 109);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    border: 1px solid rgb(23, 17, 109);
+    transition: background-color 1s;
+}
+
+button:hover {
+    background-color: rgb(23, 17, 109);
+    color: white;
+}
+
+button:focus-visible {
+    outline-color: rgb(23, 17, 109);
+}
+
+.login_buttons_container a:last-of-type {
+    margin-left: 10px;
+}
+
+.error_button_container {
+    position: absolute;
+    right: 5rem;
+    bottom: 2.5rem;
+}
+
+.error_button_container button {
+    color: rgb(226, 102, 71);
+    border: 1px solid rgb(226, 102, 71);
+}
+
+.error_button_container button:hover {
+    background-color: rgb(226, 102, 71);
+    color: white;
+}
+
+.error_button_container button:focus-visible {
+    outline-color: rgb(226, 102, 71);
+}
+
+abbr {
+    text-decoration: none;
+    color: red;
+}
+
+input {
+    font-size: 20px;
+    padding: 15px 15px;
+    border: 1px solid rgb(23, 17, 109);
+}
+
+input:focus-visible {
+    outline-color: rgb(23, 17, 109);
+}
+
+.js-auth-form label {
+    font-weight: bold;
+}
+
+.js-auth-form input {
+    margin-top: 10px;
+}
+
+.js-auth-form a:focus-visible {
+    outline-color: rgb(23, 17, 109);
+}
+
+#create-profile {
+    color: rgb(23, 17, 109);
+    text-decoration: none;
+}
+
+.info_buttons_container input {
+    border-radius: 25px;
+}
+
+.info_buttons_container button {
+    border-radius: 25px;
+    margin-left: 8px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    border-bottom: 5px solid rgb(221, 221, 221);
+    height: 1cm;
+}
+
+th {
+    background-color: rgb(23, 17, 109);
+    color: white;
+}
