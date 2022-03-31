@@ -34,7 +34,7 @@ if (table != null) {
 //let json = JSON.stringify(value, [replacer, space])
 
 
-function readJSON(file, callback) {
+/* function readJSON(file, callback) {
     let rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
     rawFile.open("GET", file, true);
@@ -45,12 +45,13 @@ function readJSON(file, callback) {
     }
     rawFile.send(null);
  
-}
+} */
  
-readJSON("vielas.json", function(text){
-    let data = JSON.parse(text);
-    console.log(vielas);
-});
+const JSONObject = JSON.parse(vielas)
+console.log(JSONObject)
+/* document.getElementById("name").innerHTML = JSONObject.Klients.Vārds + " " + JSONObject.Klients.Uzvārds
+document.getElementById("city").innerHTML = JSONObject["Piegādes adrese"].Pilsēta
+ */
 
 
 
